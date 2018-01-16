@@ -1,0 +1,19 @@
+
+/*.block__element--modifier*/
+
+.form{
+	width: 300 px;
+	background: #eee;
+}
+
+.input-field{
+	padding: 10px;
+}
+
+.btns {
+	background: green;
+}
+
+.btn-warning{
+	background: red;
+}
