@@ -1,0 +1,16 @@
+body {
+    background: #ddd;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Source Sans Pro", Calibri, Arial, sans-serif;
+    font-size: 120px;
+    /*font-weight: normal;*/
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    line-height: 100vh;
+}
