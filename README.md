@@ -1,2 +1,2 @@
-# 339week2
+# ICE
 In Class Exercises Code
