@@ -1,2 +1,2 @@
-# 339week2
-Week 2 Discussion
+# ICE
+In Class Exercises Code
