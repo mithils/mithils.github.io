@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>SI 339 DS 05 - Wk 02</title>
-    <link rel="stylesheet" type=text/css href="css/main.css">
-</head>
-<body>
-    <h1 class="title">Web Design</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Mithil's ICE-1</title>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <h1>Mithil Suryadevara</h1>
+    <h3>Group members:</h3>
+    <nav>
+      <a href="#">Mithil</a>
+      <a href="#">Jessica</a>
+    </nav>
+    <img src="images/sketch.jpg" width="200px" alt="A sketch of the layout of our website">
+    <p>Welcome to our site! We decided to dedicate our site to music, since it is a shared interest. Feel free to explore!</p>
+    <img src="https://images.pexels.com/photos/802958/pexels-photo-802958.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" width="200px" alt="Headphones on a phone">
+    <img src="images/soundboard.jpeg" width="200px" alt="A black and white switch board">
+    <p><strong>ICE-1 Question Answers</strong><br>
+      #2: Looking at the site on different browsers,
+      the main difference is that the DOB entry field shows a format for entry on some
+      browsers, but not others. On others it is just a blank text field.<br>
+      #3: Originally, when you click on the text next to the radio button, it doesn't trigger
+      the choice, which is a problem because clicking exactly on the radio button is difficult
+      and makes for a bad user experience. <br>
+      #6: I've hosted my code using github pages. </p>
+    <p>Below is a form that we'd love for you to fill out. We are gathering information about the type of music students like to listen to!</p>
+    <form>
+		Name:
+		<input type="text" name="name" id = "name"><br>
+		<label for="dob">DOB:</label>
+		<input type="date" name="DOB" id = "dob"><br>
+
+		What genre of music do you typically listen to while you study?:<br>
+		<input id="genre_1" type="radio" name="genre" value="classical">
+      <label for="genre_1">Classical</label>
+      <br>
+  	<input id="genre_2" type="radio" name="genre" value="rap">
+      <label for="genre_2">Rap</label>
+      <br>
+  	<input id="genre_3" type="radio" name="genre" value="pop">
+      <label for="genre_3">Pop</label>
+      <br>
+
+  	Which of these three artists do you prefer?<br>
+		<input id="artist_1" type="radio" name="artist" value="mozart">
+      <label for="artist_1">Mozart</label>
+      <br>
+  	<input id="artist_2" type="radio" name="artist" value="eminem">
+      <label for="artist_2">Eminem</label>
+      <br>
+  	<input id="artist_3" type="radio" name="artist" value="taylor_swift">
+      <label for="artist_3">Taylor Swift</label>
+      <br>
+	</form>
+  <h3>Results:</h3>
+  <!-- Interesting Item #2: Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Genre</th>
+        <th>Subtotal</th>
+        <th>Artist</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Classical</td>
+        <td>16</td>
+        <td>Mozart</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Rap</td>
+        <td>9</td>
+        <td>Eminem</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>Pop</td>
+        <td>5</td>
+        <td>Taylor Swift</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td colspan="3">Total Surveyed:</td>
+        <td>30</td>
+      </tr>
+    </tbody>
+  </table>
+  </body>
 </html>
