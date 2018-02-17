@@ -1,2 +1,2 @@
 # 339week2
-Week 2 Discussion
+In Class Exercises Code
