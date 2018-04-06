@@ -101,16 +101,15 @@ text-align: center;
 height: 3em;
 }
 /*-----RESUME-----*/
+.about-resume{
+	background-color: #b1d4ed;
+  background-image: url('http://pattieolson.com/wp-content/uploads/2013/07/WP-background041.jpg');
+	margin: 5%;
+	border-radius: 12px;
 
-
-.stuff{
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
-  background-color: #b1d4ed;
 }
+
+
 
 .head{
   font-size: 80px;
@@ -122,28 +121,6 @@ div {
 
 
 
-#title {
-  margin-left: 3%;
-}
-
-
-
-
-.right {
-  height: 1000px;
-  width: 45px;
-  background-color: #e0eeee;
-  float: right;
-  position: inherit;
-}
-
-.stuff {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
-}
 
 p,
 li {
@@ -154,12 +131,6 @@ li {
   font-size: 20px;
 }
 
-#name {
-  font-family: Sacramento;
-  float: right;
-  margin-top: 10px;
-  margin-right: 4%;
-}
 
 a {
   color: black;
