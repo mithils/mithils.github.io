@@ -1,0 +1,342 @@
+/*-----HEADER & NAVIGATION-----*/
+header{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 105%;
+    box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
+    width: 100%;
+    position: fixed;
+}
+
+/*-----HOME-----*/
+html, body{
+height: 100%;
+padding-top: 100px;
+}
+
+html, body, header, footer{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, footer, .logo {
+  background: linear-gradient(to left bottom, black, white);
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Quicksand', sans-serif;
+}
+
+p{
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.body-home{
+	background-image: url('https://wallpapers.walldevil.com/wallpapers/a66/preview/back-ground-background-images-website-official.jpg') ;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+.pictures{
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+
+}
+
+
+.btn{
+
+}
+
+
+/*mobile-first*/
+.top-nav ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: block;
+text-align: center;
+}
+
+.top-nav ul li, .menu-icon{
+border-top: 1px solid white;
+}
+
+
+.top-nav ul li a{
+font-size: 1em;
+color: white;
+text-decoration: none;
+padding: .5em 1em;
+display: block;
+text-align: center;
+}
+
+
+
+.top-nav ul li a.current-page{
+color: #00274c;
+font-weight: bold;
+
+}
+
+
+
+/*-----LOGO-----*/
+.logo{
+margin: 0;
+text-align: center;
+}
+.logo img{
+height: 3em;
+}
+/*-----RESUME-----*/
+
+
+.stuff{
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+  background-color: #b1d4ed;
+}
+
+.head{
+  font-size: 80px;
+}
+
+div {
+  border-radius: 5px;
+}
+
+
+
+#title {
+  margin-left: 3%;
+}
+
+
+
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/*-----FOOTER-----*/
+footer{
+font-size: .85em;
+text-align: center;
+position: relative;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+}
+
+footer p{
+padding-top: .5em;
+padding-bottom: .75em;
+}
+
+/*-----HOMEPAGE-----*/
+
+
+.about{
+	background-color: #b1d4ed;
+  background-image: url('http://techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_2.jpg');
+	margin: 5%;
+	border-radius: 12px;
+
+}
+
+/*-----EXTRA PAGE ------*/
+/*photo gallery*/
+
+.photo-cell{
+margin-bottom: 2%;
+margin-left: 2%;
+}
+.photo-cell img {
+width: 98%;
+ display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/*Extra*/
+
+.body-extra{
+	display: grid;
+
+}
+
+
+
+
+
+/* Midsize view */
+@media only screen and (min-width: 650px){
+	.top-nav ul{
+		text-align: center;
+	}
+
+	.top-nav ul li{
+		display: inline-block;
+
+	}
+	.main-content-home {
+  margin-top: 100px;
+	}
+	img{
+		max-width: 100%;
+	}
+	.flex-container{
+		padding:0;
+		margin:0;
+		list-style: none;
+		display: -webkit-flexbox;
+	  	display: flex;
+		flex-flow: row wrap;
+	}
+	.flex-item {
+	  max-height: 46%;
+	}
+
+	.a{
+		width: 100%;
+	}
+
+	.b{
+		width: 100%;
+
+	}
+
+	.c{
+		width: 46%;
+	}
+
+	.d{
+		width: 46%;
+	}
+
+	.e {
+		width: 100%;
+	}
+
+	.f{
+		width: 100%;
+	}
+
+	.g{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+/* Large view */
+
+
+@media only screen and (min-width: 1000px){
+	.top-nav .logo {
+    display: inline-block;
+    margin-left: 0;
+  	}
+  	.top-nav ul {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    top: 9px;
+  	}
+  	.top-nav ul li {
+    border: none;
+  	}
+	img{
+		max-width: 100%;
+	}
+	.flex-container{
+		padding:0;
+		margin:0;
+		display: flex;
+		list-style: none;
+	  	display: -webkit-flexbox;
+		flex-flow: row wrap;
+	}
+	.flex-item{
+		max-height: 25%;
+	}
+	.a{
+		width: 48%;
+	}
+	.b{
+		width: 48%;
+	}
+	.c{
+		width: 23%;
+	}
+	.d{
+		width: 23%;
+	}
+	.e{
+		width: 48%;
+	}
+	.f{
+		width: 48%;
+	}
+	.g{
+		width: 48%;
+	}
+}
