@@ -37,6 +37,16 @@
 	</style>
 
 	<script type="text/javascript">
+		function upDate(x){
+			document.getElementById('image').style.backgroundImage="url('"+x.src+"')";
+			document.getElementById('image').innerHTML = i.alt;
+		}
+			
+		function unDo(x){
+			document.getElementById('image').style.backgroundImage="url()";
+			document.getElementById('image').innerHTML= "Hover over an image below."
+		}
+	
 	// I used Two functions here.  Starter idea at: 
 	// https://codepen.io/ColleenEMc/pen/XmZzWw
 	</script>
@@ -49,19 +59,33 @@
 		</div>
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" 
+		<img class = "preview"
+			tabindex="1" 
+			onfocus = "upDate(this)" 
+			onblur = 'unDo()'
+			onmouseover = 'upDate(this)' 
+			onmouseleave = 'UnDo()'
 			alt = "Styling with a Bandana" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
 			>
 
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->	
-		<img class = "preview" 
+		<img class = "preview"
+			tabindex = '2'
+			onfocus = 'upDate(this)'
+			onblur = 'unDo()'
+			onmouseover = 'upDate(this)'
+			onmouseleave = 'UnDo()' 
 			alt = "With My Boy" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
 	
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
 		<img class = "preview" tabindex = "1" 
+			onfocus = 'upDate(this)'
+			onblur = 'unDo()'
+			onmouseover = 'upDate(this)'
+			onmouseleave = 'UnDo()' 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
 			alt = "Young Puppy";>
 </body>

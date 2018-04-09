@@ -20,10 +20,17 @@ When you test your form at the moment, you'll notice that you can click on the c
     </style>
     
     <script type="text/javascript">
-	function toggleEmail(){
-		/*    YOUR CODE HERE - check Step 1*/ 
+  function toggleEmail(){
+    var emailField = document.getElementById('emailfield');
+    var subscribe = document.querySelector('#subscribe');
+    if (subscribe.checked) {
+      emailField.style.display = 'block';
+    } else {
+      emailField.style.display = 'none';
 
-	} 
+      
+    }
+  }
     </script>
   </head>
   <body>
