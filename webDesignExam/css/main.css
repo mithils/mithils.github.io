@@ -1,0 +1,23 @@
+body{
+	background: url(../images/funky-lines.png);
+	margin:0 auto;
+
+}
+
+
+
+.images{
+	padding:5%;
+	margin:0 auto;
+	border-style: solid;
+	border-color:blue;
+	border-width: 5px;
+	float: left;
+	
+	display: inline-block;
+
+
+	
+
+}
+
